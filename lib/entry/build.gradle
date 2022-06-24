@@ -20,7 +20,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
     testImplementation 'junit:junit:4.13.1'
     ohosTestImplementation 'com.huawei.ohos.testkit:runner:2.0.0.200'
+    implementation project(path: ':library')
 }
 decc {
-    supportType = ['html','xml']
+    supportType = ['html', 'xml']
 }
